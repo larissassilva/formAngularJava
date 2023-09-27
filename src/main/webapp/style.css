@@ -1,0 +1,299 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 27 de set. de 2023, 00:01:49
+    Author     : larissa
+*/
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 26 de set. de 2023, 17:55:01
+    Author     : larissa
+*/
+input { margin: 10px; }
+table {
+    margin: 10px 0;
+    border-collapse: collapse;
+}
+td { 
+  border: solid 2px #2f58ed;
+  padding: 5px;
+  width: 90%;
+}
+
+h1{
+  color:#2f58ed;
+}
+.add{
+  color:#fff;
+  background-color:#5cb85c;
+  border-color:#4cae4c;
+}
+.delete{
+  color:#fff;
+  background-color:#d9534f;
+  border-color:#d43f3a;
+}
+.btn{
+  display:inline-block;
+  margin-bottom:0;
+  font-weight:400;
+  text-align:center;
+  white-space:nowrap;
+  vertical-align:middle;
+  -ms-touch-action:manipulation;
+  touch-action:manipulation;
+  cursor:pointer;
+  background-image:none;
+  border:1px solid transparent;
+  padding:6px 12px;
+  font-size:14px;
+  line-height:1.42857143;
+  border-radius:4px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+.centralizar{
+ text-align: center;
+}
+.tam{
+	width:120px;
+    display: inline-block;
+}
+a:link {
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+}
+/* video paginas */
+.bg_videoPages{    
+    min-width: 100%; 
+    min-height: 10%;
+    width: 100%; 
+    height: 10%;        
+}
+/*WhatsApp*/
+.whatsapp-link {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 1px 1px 2px #888;
+	z-index: 1000;
+}
+ 
+.fa-whatsapp {
+	margin-top: 16px;
+}
+/*Fim WhatsApp*/
+
+/* Inicio do rodapÃĐ */
+.footer-distributed{
+        background-color: #000000;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font: bold 16px Lato;
+        padding: 55px 50px;
+        margin-top: 0px;
+        position: fixed;
+    }
+    
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    /* Footer left */
+    .footer-distributed .footer-left{
+        width: 40%;
+    }
+    
+    /* The company logo */
+    .footer-distributed h3{
+        color:  #ffffff;
+        font: normal 36px 'Lato';
+        margin: 0;
+    }
+    
+    .footer-distributed h3 span{
+        color:  #ffffff;
+    }
+    
+    /* Footer links */
+    .footer-distributed .footer-links{
+        color:  #ffffff;
+        margin: 20px 0 12px;
+        padding: 0;
+    }
+    
+    .footer-distributed .footer-links a{
+        display:inline-block;
+        line-height: 1.8;
+        text-decoration: none;
+        color:  inherit;
+    }
+    
+    .footer-distributed .footer-company-name{
+        color:  #ffffff;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+    }
+    
+    /* Footer Center */
+    .footer-distributed{
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+    .footer-distributed .footer-center{
+        width: 35%;
+    }
+    
+    .footer-distributed .footer-center i{
+        background-color:  #33383b;
+        color: #ffffff;
+        font-size: 25px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        margin: 10px 15px;
+        vertical-align: middle;
+    }
+    
+    .footer-distributed .footer-center i .fa-envelope{
+        font-size: 17px;
+        line-height: 38px;
+    }
+    
+    .footer-distributed .footer-center p{
+        display: inline-block;
+        color: #ffffff;
+        vertical-align: middle;
+        margin:0;
+    }
+    
+    .footer-distributed .footer-center p span{
+        display:block;
+        font-weight: normal;
+        font-size:14px;
+        line-height:2;
+    }
+    
+    .footer-distributed .footer-center p a{
+        color:  #ffffff;
+        text-decoration: none;;
+    }
+    
+    
+    /* Footer Right */
+    .footer-distributed .footer-right{
+        width: 20%;
+    }
+    
+    .footer-distributed .footer-company-about{
+        line-height: 20px;
+        color:  #ffffff;
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0;
+    }
+    
+    .footer-distributed .footer-company-about span{
+        display: block;
+        color:  #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .footer-distributed .footer-icons{
+        margin-top: 25px;
+    }
+    
+    .footer-distributed .footer-icons a{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        background-color:  #33383b;
+        border-radius: 2px;
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+        margin-right: 3px;
+        margin-bottom: 5px;
+    }
+
+    .footer-icons a:hover{
+        background-color:  #40bde6;
+    }
+
+    .footer-left a:hover{
+        color:  #40bde6;
+    }
+    
+    /* If you don't want the footer to be responsive, remove these media queries */
+    @media (max-width: 880px) {
+    
+        .footer-distributed{
+        font: bold 14px Lato;
+        }
+        
+        
+        .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+        }
+        
+        .footer-distributed .footer-center i{
+        margin-left: 0;
+        }
+        
+        /* jumbotron sobre MÃ­dia JataÃ­*/
+        .jumbo{
+         text-align: center;
+        }
+        .jumboText{
+            margin-right: 40px;
+            margin-top: 20px !important;
+        }
+    }
+/* Fim do rodapÃĐ*/
+

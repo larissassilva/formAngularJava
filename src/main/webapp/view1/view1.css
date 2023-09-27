@@ -1,0 +1,79 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27 de set. de 2023, 00:09:34
+    Author     : larissa
+*/
+
+input { margin: 10px; }
+table {
+    margin: 10px 0;
+    border-collapse: collapse;
+}
+td { 
+  border: solid 2px #2f58ed;
+  padding: 5px;
+  width: 90%;
+}
+
+h1{
+  color:#2f58ed;
+}
+.add{
+  color:#fff;
+  background-color:#5cb85c;
+  border-color:#4cae4c;
+}
+.delete{
+  color:#fff;
+  background-color:#d9534f;
+  border-color:#d43f3a;
+}
+.btn{
+  display:inline-block;
+  margin-bottom:0;
+  font-weight:400;
+  text-align:center;
+  white-space:nowrap;
+  vertical-align:middle;
+  -ms-touch-action:manipulation;
+  touch-action:manipulation;
+  cursor:pointer;
+  background-image:none;
+  border:1px solid transparent;
+  padding:6px 12px;
+  font-size:14px;
+  line-height:1.42857143;
+  border-radius:4px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+.centralizar{
+ text-align: center;
+}
+.tam{
+	width:120px;
+    display: inline-block;
+}
+a:link {
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+}

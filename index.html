@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->  <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> 
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    
+    <title>Mídia Jataí</title>
+    <link rel="icon" href="https://midiajatai.com.br/favicon.png" sizes="32x32">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body> 
+    <!--Vídeo-->
+    <div style="margin-left: 0px; margin-right: 0px; margin-top: -90px; width:100%">
+            <video autoplay="" loop="" muted="" poster="https://midiajatai.com.br/Midiajatai_pages.jpg" class="bg_videoPages" height="50px">
+                <source src="https://midiajatai.com.br/Midiajatai_pages.mp4" type="video/mp4">
+            </video>    
+    </div>
+    <!--pagina-->
+    <div class="container d-flex justify-content-center">
+        <div class="row">
+            <div class=".col-xs-12 .col-sm-12 .col-md-12 .col-lg-12">
+
+                <div ng-view></div>
+
+                <h1 class="centralizar" style="margin-top:30px; color:black; ">NOVO USUÁRIO<h1>
+                <br>
+
+                <a href="view1/view1.html">
+                    <!-- botao chama a view1-->
+                    <button class="btn add btn-success" Style="width:100%;color:white; margin-top:10px; margin-bottom:30px;"> 
+                        <h3 style="color:white;" > Cadastrar</h3>
+                    </button>
+                </a>
+
+
+            </div><!-- comment -->
+        </div>
+    </div>
+    <!-- view2-->
+   
+      <!--<div>AngularJS seed app: v<span app-version></span></div>-->
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+<!-- WhatsApp -->
+<a class="whatsapp-link" href="https://wa.me/5564981173559?text=Olá,%20vim%20através%20do%20site%20www.midiajatai.com.br!" target="_blank">
+		<i class="fa fa-whatsapp"></i>
+</a>
+<!-- Footer -->
+<footer class="footer-distributed page-footer ">
+        <div class="footer-left">
+        <h3>Mídia<span>Jataí</span></h3>
+        <p class="footer-links">
+        <!--Colocar aqui as páginas do seu site-->
+        <!--Substituir # pelo o Link da página-->        
+        <a href="https://midiajatai.com.br/servicos.html">Serviço</a>
+        </p>
+        
+        <p style="color:white;">CNPJ: 33.754.371/0001-18</p>
+
+        <p class="footer-company-name">Mídia Jataí © 2023</p>
+        </div>
+
+        <div class="footer-center">
+        <div>
+        <i class="fa fa-map-marker"></i>
+        <!--Aqui você altera o endereço-->
+        <p><span></span> Jataí, Goiás</p>
+        </div>
+        <div>
+        <i class="fa fa-phone"></i>
+        <!--Aqui você altera o telefone-->
+        <p>+55 64 98117-3559</p>
+        </div>
+        <div>
+        <i class="fa fa-envelope"></i>
+        <!--Aqui você altera o email-->
+        <p><a href="midiajatai@gmail.com">midiajatai@gmail.com</a></p>
+        </div>
+        </div>
+
+        <div class="footer-right">
+        <p style="text-align:justify;" class="footer-company-about">
+        <!--Aqui você altera sobre a sua página-->
+        <span>Sobre </span>
+        O Mídia Jataí oferece visibilidade ao seu negócio na Internet. Oferecemos serviços diversos, para você divulgar o seu negócio. Saiba mais entre em contato.
+        </p>
+        <div class="footer-icons">
+        <!--Substituir # pelo o link das suas redes sociais-->
+        <a href="https://www.facebook.com/midiajatai/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/midiajatai/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCqwRIR1htBeuCkSH1VOkmxg" target="_blank"><i class="fa fa-youtube"></i></a>
+        </div>
+        </div>
+    </footer>
+
+  <script src="core/version/version.js"></script>
+  <script src="core/version/version-directive.js"></script>
+  <script src="core/version/interpolate-filter.js"></script>
+  
